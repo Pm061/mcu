@@ -1,2 +1,11 @@
-﻿build/
+﻿# build artifacts (Pico / CMake)
+build/
+**/build/
+
+# VS Code
 .vscode/
+**/.vscode/
+
+# misc
+*.log
+.DS_Store
